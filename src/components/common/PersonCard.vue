@@ -1,10 +1,10 @@
 <template>
   <div class="person-card" :class="{ activeCard: personInfo.id == current }">
     <div class="info">
-          <HeadPortrait :imgUrl="personInfo.headImg"></HeadPortrait>
+          <HeadPortrait :imgUrl="personInfo.avatar"></HeadPortrait>
           <div class="info-detail">
-            <div class="name">{{ personInfo.name }}</div>
-            <div class="detail">{{ personInfo.detail }}</div>
+            <div class="nickname">{{ personInfo.nickName }}</div>
+            <div class="desc">{{ personInfo.description }}</div>
           </div>
 
     </div>
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import HeadPortrait from "./HeadPortrait.vue";
+import HeadPortrait from "@/components/common/HeadPortrait.vue";
 
 export default {
   props: {
@@ -65,14 +65,14 @@ export default {
     .info-detail {
       margin-top: 5px;
       margin-left: 20px;
-      .name {
+      .nickname {
         color: #fff;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
         margin-bottom: 5px;
       }
-      .detail {
+      .desc {
         color: #5c6675;
         overflow: hidden;
         white-space: nowrap;
@@ -88,7 +88,7 @@ export default {
     // box-shadow:  0 5px 20px rgba(251, 152, 11, .5);
     .info {
       .info-detail {
-        .detail {
+        .desc {
           color: #fff;
         }
       }
@@ -100,8 +100,8 @@ export default {
     transition: 0.3s;
     box-shadow: 3px 2px 10px 0px rgba(0, 136, 255);
     .info {
-      .info-detail {
-        .detail {
+      .info-desc {
+        .desc {
           color: #fff;
         }
       }

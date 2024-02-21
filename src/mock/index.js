@@ -19,29 +19,29 @@ let friendList = Mock.mock(
     [
         {
             img: "",
-            name: "大毛",
-            detail: "我是大毛",
+            nickName: "大毛",
+            description: "我是大毛",
             lastMsg: "to do",
             id: "1002",
-            headImg: require("@/assets/img/head_portrait1.jpg"),
+            avatar: require("@/assets/img/head_portrait1.jpg"),
 
         },
         {
             img: "",
-            name: "小毛",
-            detail: "我是小毛",
+            nickName: "小毛",
+            description: "我是小毛",
             lastMsg: "dada dw ertgthy j uy",
             id: "1003",
-            headImg: require("@/assets/img/head_portrait2.jpg"),
+            avatar: require("@/assets/img/head_portrait2.jpg"),
 
         },
         {
             img: "",
-            name: "小王",
-            detail: "我是小王",
+            nickName: "小王",
+            description: "我是小王",
             lastMsg: "大萨达萨达所大大萨达",
             id: "1004",
-            headImg: require("@/assets/img/head_portrait3.jpg"),
+            avatar: require("@/assets/img/head_portrait3.jpg"),
 
         },
     ]

@@ -1,36 +1,34 @@
-import VueRouter from 'vue-router'
- 
-import ChatHome from '../view/pages/chatHome/index.vue'
-import Video from '../view/pages/video.vue'
-import Lingting from '../view/pages/lingting.vue'
-import Setting from '../view/pages/setting.vue'
-import ChatWindow from '../view/pages/chatHome/chatwindow.vue'
- 
-export default new VueRouter({
-    routes: [
-        {
-            path: "/",
-            redirect: "/ChatHome",
-          },
-        {
-            path: "/ChatHome",
-            name: "ChatHome",
-            component: ChatHome,
-        },    
-        {
-            path: "/Video",
-            name: "Video",
-            component: Video
-        }, 
-        {
-            path: "/Lingting",
-            name: "Lingting",
-            component: Lingting
-        },   
-        {
-            path: "/Setting",
-            name: "Setting",
-            component: Setting
-        },    
-    ]
+import VueRouter from "vue-router";
+
+// 路由配置
+const routes = [
+   {
+      path: "/",
+      redirect: "/login",
+   },
+   {
+      path: "/login",
+      name: "Login",
+      component: () => import("@/views/login"),
+   },
+   {
+      path: "/home",
+      name: "Home",
+      component: () => import("@/views/home"),
+   },
+];
+
+//路由实例
+const router = new VueRouter({
+    routes,
+    mode: "history"
 })
+
+// 全局路由守卫
+router.beforeEach((to, from, next) => {
+   if(to.path != from.path){
+      next()
+   }
+})
+
+export default router
