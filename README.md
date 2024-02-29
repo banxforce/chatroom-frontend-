@@ -12,13 +12,13 @@
 
 ### 登录界面
 
-<img title="" src="file:///C:/Users/banxing/Pictures/Typedown/8f2cd4c9-f535-4ce0-b3f6-503ce9675428.png" alt="8f2cd4c9-f535-4ce0-b3f6-503ce9675428" style="zoom:33%;"><img src="file:///C:/Users/banxing/Pictures/Typedown/21445dda-3440-460b-b2e0-7213a819da08.png" title="" alt="21445dda-3440-460b-b2e0-7213a819da08" style="zoom:33%;">
+<img title="" src="https://i.miji.bid/2024/02/29/5496266bfce76d5bbb3aa3a69c107493.png" alt="5496266bfce76d5bbb3aa3a69c107493.png" style="zoom:33%;"><img src="https://i.miji.bid/2024/02/29/e46cd8878d2531441df55ef5603d283b.md.png" title="" alt="" style="zoom:50%;">
 
 ### 主界面
 
-<img title="" src="file:///C:/Users/banxing/Pictures/Typedown/095de9e2-67db-4fd8-a261-1474dfcda0d0.png" alt="095de9e2-67db-4fd8-a261-1474dfcda0d0" style="zoom:25%;">
+<img title="" src="https://i.miji.bid/2024/02/29/bb9f7a3f209258a8fe1637cc5840de22.png" alt="095de9e2-67db-4fd8-a261-1474dfcda0d0" style="zoom:33%;">
 
-<img title="" src="file:///C:/Users/banxing/Pictures/Typedown/40cc99d8-a72c-4073-97cb-d0379e917960.png" alt="40cc99d8-a72c-4073-97cb-d0379e917960" style="zoom:25%;">
+<img title="" src="https://i.miji.bid/2024/02/29/70ae7276018ec32b5ad78b396e4a3984.png" alt="40cc99d8-a72c-4073-97cb-d0379e917960" style="zoom:33%;">
 
 ---
 
